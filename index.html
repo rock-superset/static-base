@@ -6,11 +6,209 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
+<div class="data-detail">
+    <h1 class="title"><i class="icon"></i>数据集详情</h1>
+    <div class="data-detail-wrap">
+        <div class="data-wrap-center">
+            <nav class="detail-nav">
+                <ul>
+                    <li><a class="active" href="">Detail</a></li>
+                    <li><a href="">预览</a></li>
+                    <li><a href="">List Table Column</a></li>
+                    <li><a href="">List Sql Metric</a></li>
+                </ul>
+            </nav>
 
-<div id="root"></div>
+            <!-- 数据集详情 -->
+            <!-- <div class="data-detail-centent">
+                <div class="data-detail-infor">
+                    <label class="data-detail-item">
+                        <span>数据集名称：</span>
+                        <input type="text" value="Heatmap" />
+                    </label>
+                    <label class="data-detail-item">
+                        <span>数据集类型：</span>
+                        <p>inceptor</p>
+                    </label>
+                    <label class="data-detail-item">
+                        <span>连接：</span>
+                        <p>inceptor</p>
+                    </label>
+                    <label class="data-detail-item">
+                        <span>数据库：</span>
+                        <p>inceptor</p>
+                    </label>
+                    <label class="data-detail-item">
+                        <span>表：</span>
+                        <p>inceptor</p>
+                    </label>
+                    <label class="data-detail-item">
+                        <span>描述：</span>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <div class="data-detail-wrap-item">
+                        <label class="data-detail-item">
+                            <span>主列时间：</span>
+                            <input type="text"/>
+                        </label>
+                        <label class="data-detail-item">
+                            <span>缓存时间：</span>
+                            <input type="text" />
+                        </label>
+                    </div>
+                </div>
+                <label class="sub-btn">
+                    <input type="button" value="保存" />
+                </label>
+            </div> -->
 
-<script src="common.js"></script>
-<script src="index.js"></script>
+            <!-- 新建数据集 -->
+            <!-- <div class="new-data-gather">
+                <label class="data-detail-item">
+                    <span>数据集名称：</span>
+                    <input type="text" value="Heatmap" />
+                </label>
+                <label class="data-detail-item">
+                    <span>数据集类型：</span>
+                    <dl>
+                        <dt><dd class="radio-glugin-active radio-glugin"></dd></dt>
+                        <dd class="active">inceptor</dd>
+                    </dl>
+                    <dl>
+                        <dt><dd class="radio-glugin"></dd></dt>
+                        <dd>HDFS</dd>
+                    </dl>
+                    <dl>
+                        <dt><dd class="radio-glugin"></dd></dt>
+                        <dd>上传文件</dd>
+                    </dl>
+                </label>
+                <label class="data-detail-item">
+                    <span></span>
+                    <div class="file-show">
+                        <div class="file-fold">
+                            <i class="icon"></i>
+                            <span>DEV</span>
+                        </div>
+                        <div class="file-fold-active">
+                            <i class="icon"></i>
+                            <span>AD</span>
+                            <div class="file-fold">
+                                <i class="icon"></i>
+                                <span>DEV</span>
+                            </div>
+                            <div class="file-fold">
+                                <i class="icon"></i>
+                                <span class="active">DEV</span>
+                            </div>
+                            <div class="file-fold">
+                                <i class="icon"></i>
+                                <span>DEV</span>
+                            </div>
+                        </div>
+                        <div class="file-fold">
+                            <i class="icon"></i>
+                            <span>DEV</span>
+                        </div>
+                        <div class="file-fold">
+                            <i class="icon"></i>
+                            <span>DEV</span>
+                        </div>
+                        <div class="file-fold">
+                            <i class="icon"></i>
+                            <span>DEV</span>
+                        </div>
+                    </div>
+                </label>
+                <label class="data-detail-item">
+                    <span>路劲：</span>
+                    <input type="text" value="" />
+                </label>
+                <label class="data-detail-item">
+                    <span></span>
+                    <button class="uploading-btn">上传文件</button>
+                </label>
+                <label class="data-detail-item">
+                    <span></span>
+                    <div class="file-uploading">
+                        <i class="icon"></i>
+                        <span>package.json</span>
+                        <div class="progress"></div>
+                    </div>
 
+                </label>
+                <label class="data-detail-item">
+                    <span></span>
+                    <div class="file-uploaded">
+                        <i class="icon"></i>
+                        <span>package.json</span>
+                        <div class="finish"></div>
+                    </div>
+                </label>
+                <label class="data-detail-item">
+                    <span></span>
+                    <div class="connect-success">
+                        <span>连接成功</span>
+                        <button>配置></button>
+                    </div>
+                </label>
+                <label class="data-detail-item">
+                    <span>描述：</span>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </label>
+                <div class="data-detail-wrap-item">
+                    <label class="data-detail-item">
+                        <span>主列时间：</span>
+                        <input type="text"/>
+                    </label>
+                    <label class="data-detail-item">
+                        <span>缓存时间：</span>
+                        <input type="text" />
+                    </label>
+                </div>
+                <label class="sub-btn">
+                    <input type="button" value="保存" />
+                </label>
+            </div> -->
+
+            <!-- 未连接的新建数据集 -->
+            <div class="ununited-data">
+                <label class="data-detail-item">
+                    <span>数据集名称：</span>
+                    <input type="text" value="Heatmap" />
+                </label>
+                <label class="data-detail-item">
+                    <span>数据集类型：</span>
+                    <dl>
+                        <dt><dd class="radio-glugin-active radio-glugin"></dd></dt>
+                        <dd class="active">inceptor</dd>
+                    </dl>
+                    <dl>
+                        <dt><dd class="radio-glugin"></dd></dt>
+                        <dd>HDFS</dd>
+                    </dl>
+                    <dl>
+                        <dt><dd class="radio-glugin"></dd></dt>
+                        <dd>上传文件</dd>
+                    </dl>
+                </label>
+                <label class="data-detail-item">
+                    <span>描述：</span>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </label>
+                <div class="data-detail-wrap-item">
+                    <label class="data-detail-item">
+                        <span>主列时间：</span>
+                        <input type="text"/>
+                    </label>
+                    <label class="data-detail-item">
+                        <span>缓存时间：</span>
+                        <input type="text" />
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
